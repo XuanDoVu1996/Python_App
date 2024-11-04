@@ -1,5 +1,5 @@
 
-# Interactive Recommendation System App _ Skincare Products
+# Recommendation System App _ Skincare Products
 
 ## :information_source: GENERAL INFORMATION
 - :bulb: Purpose: launching a skincare-product review application to tap into the lucrative skincare market
@@ -14,23 +14,23 @@
 
 The methodoly for each recommender is as below:
 
-** :computer: :one: Recommender 1**
+** :computer: :one: Recommender 1 **
 - The first recommender, a shallow recommender using a simple filtering technique, is built to
 provide users with general non-personalized recommendations, including top trending and top
 rated products. These products will be presented on the front page of the platform so that all
 users visiting the platform can view and refer to top trending and high-rated products weekly,
-daily, or even in real time based on how often we update the underlying dataset.
+daily, or even in real time based on how often I update the underlying dataset.
 
-** :computer: :two: Recommender 2**
+** :computer: :two: Recommender 2 **
 - The second recommender, a personalized recommender, is built using content-based filtering,
 with the purpose of suggesting relevant products for new users and for users who made less
-than 3 ratings. For new users, who we have no data about their purchasing pattern or
-preference and hence CF recommenders face extreme cold-start problems, we can either ask for their inputs directly, or use their browsing history (ie., searched items, viewed items) to
+than 3 ratings. For new users, who I have no data about their purchasing pattern or
+preference and hence CF recommenders face extreme cold-start problems, I can either ask for their inputs directly, or use their browsing history (ie., searched items, viewed items) to
 suggest related products. For users who made less than 3 ratings and thus CF systems work less
-effectively, we can apply the same approaches as new users, or use purchased items to suggest
+effectively, I can apply the same approaches as new users, or use purchased items to suggest
 similar items
 
-** :computer: :three: Recommender 3**
+** :computer: :three: Recommender 3 **
 - The third recommender aims to suggest relevant products for users who have made at least 3
 ratings, leveraging their purchasing and evaluating history. This personalized recommender is
 chosen by evaluating and comparing various CF algorithms under the Surprise package, both
@@ -39,11 +39,10 @@ model-based and memory-based methods, as well as CBF.
 <P style="page-break-before: always">
 
 ## :two: :books: Data sources:
-To build the recommendation system for skincare products, I retrieve from Kaggle1
-two datasets :
-(i) information of over 8000 products sold on Sephora online store, including product ID,
-brand name, prices, ingredients, ratings, and other features, and
-(ii) 1 million user reviews from over 570k users over 2300 products from Skincare
+To build the recommendation system for skincare products, I retrieve from Kaggle1 two datasets :
+- information of over 8000 products sold on Sephora online store, including product ID,
+brand name, prices, ingredients, ratings, and other features,
+- 1 million user reviews from over 570k users over 2300 products from Skincare
 category, including user appearances and review ratings.
 
 ## :three: :calling: App Demo
