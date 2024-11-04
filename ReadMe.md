@@ -1,5 +1,5 @@
 
-# Python Project _ Interactive Recommendation System App _ Skincare Products
+# Interactive Recommendation System App _ Skincare Products
 
 ## :information_source: GENERAL INFORMATION
 - :bulb: Purpose: launching a skincare-product review application to tap into the lucrative skincare market
@@ -14,14 +14,14 @@
 
 The methodoly for each recommender is as below:
 
-**:arrow_right: Recommender 1**
+** :computer: :one: Recommender 1**
 - The first recommender, a shallow recommender using a simple filtering technique, is built to
 provide users with general non-personalized recommendations, including top trending and top
-rated products. These products will be presented on the front page of our platform so that all
-users visiting our platform can view and refer to top trending and high-rated products weekly,
+rated products. These products will be presented on the front page of the platform so that all
+users visiting the platform can view and refer to top trending and high-rated products weekly,
 daily, or even in real time based on how often we update the underlying dataset.
 
-**:arrow_right: Recommender 2**
+** :computer: :two: Recommender 2**
 - The second recommender, a personalized recommender, is built using content-based filtering,
 with the purpose of suggesting relevant products for new users and for users who made less
 than 3 ratings. For new users, who we have no data about their purchasing pattern or
@@ -30,7 +30,7 @@ suggest related products. For users who made less than 3 ratings and thus CF sys
 effectively, we can apply the same approaches as new users, or use purchased items to suggest
 similar items
 
-**:arrow_right: Recommender 3**
+** :computer: :three: Recommender 3**
 - The third recommender aims to suggest relevant products for users who have made at least 3
 ratings, leveraging their purchasing and evaluating history. This personalized recommender is
 chosen by evaluating and comparing various CF algorithms under the Surprise package, both
@@ -38,7 +38,15 @@ model-based and memory-based methods, as well as CBF.
 
 <P style="page-break-before: always">
 
-## :two: App Demo
+## :two: :books: Data sources:
+To build the recommendation system for skincare products, I retrieve from Kaggle1
+two datasets :
+(i) information of over 8000 products sold on Sephora online store, including product ID,
+brand name, prices, ingredients, ratings, and other features, and
+(ii) 1 million user reviews from over 570k users over 2300 products from Skincare
+category, including user appearances and review ratings.
+
+## :three: :calling: App Demo
 
 The application includes four main components, each offering different
 functionalities tailored to enhance the user experience. 
@@ -57,7 +65,7 @@ number of reviews products received, indicating their popularity among customers
 The second section of the web application offers users personalized recommendations for the
 top five products, leveraging their past purchase history and review data. The personalized
 recommendations are chosen based on the model 3. The model uses KNN-Basic algorithm
-which predicts user’s preferences with highest accuracy, making it our top-performing model
+which predicts user’s preferences with highest accuracy, making it the top-performing model
 among others.
 
 <img src="images/recommender 3.jpg" alt="recommender 3" width="1200"/>
