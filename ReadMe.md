@@ -14,14 +14,14 @@
 
 The methodoly for each recommender is as below:
 
-** :computer: :one: Recommender 1 **
+**:computer: :one: Recommender 1**
 - The first recommender, a shallow recommender using a simple filtering technique, is built to
 provide users with general non-personalized recommendations, including top trending and top
 rated products. These products will be presented on the front page of the platform so that all
 users visiting the platform can view and refer to top trending and high-rated products weekly,
 daily, or even in real time based on how often I update the underlying dataset.
 
-** :computer: :two: Recommender 2 **
+**:computer: :two: Recommender 2**
 - The second recommender, a personalized recommender, is built using content-based filtering,
 with the purpose of suggesting relevant products for new users and for users who made less
 than 3 ratings. For new users, who I have no data about their purchasing pattern or
@@ -30,7 +30,7 @@ suggest related products. For users who made less than 3 ratings and thus CF sys
 effectively, I can apply the same approaches as new users, or use purchased items to suggest
 similar items
 
-** :computer: :three: Recommender 3 **
+**:computer: :three: Recommender 3**
 - The third recommender aims to suggest relevant products for users who have made at least 3
 ratings, leveraging their purchasing and evaluating history. This personalized recommender is
 chosen by evaluating and comparing various CF algorithms under the Surprise package, both
