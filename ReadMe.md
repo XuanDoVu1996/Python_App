@@ -1,5 +1,5 @@
 
-# SQL Project _ Healthcare Database
+# Python Project _ Interactive Dashboard App _ Cryptocurrency
 
 ## :information_source: GENERAL INFORMATION
 - :bulb: Purpose: We created a database that records the healthcare information of patients in fictional hospital named Happiness.
@@ -9,7 +9,7 @@
   + `sql_scripts.txt` : sql scripts to create the database
   + `description_of_tables.txt`: the description of variables in tables
 
-## :one: Database Idea:
+## :one: Description of functions:
 
 The database reflects the healthcare industry’s key aspects in the following ways:
 
